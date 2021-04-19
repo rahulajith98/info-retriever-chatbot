@@ -9,7 +9,7 @@ if (topic!='chatbot'):
     misspelled=topic
     topic=spell.correction(topic)
 
-f=open('C:/Users/Rahul/Documents/informationnltk/'+topic+'.txt','r',errors='ignore')
+f=open('C:/informationnltk/'+topic+'.txt','r',errors='ignore')
 raw=f.read()
 raw= raw.lower() #this is for converting everything to lowercase
 sent_tokens=nltk.sent_tokenize(raw) #tokenizing sentences
@@ -58,7 +58,7 @@ def response(user_response):
             return("okay")
         else:
          ans=input(string)
-        with open('C:/Users/Rahul/Documents/informationnltk/'+topic+'.txt','a',errors='ignore') as myfile:
+        with open('C:/informationnltk/'+topic+'.txt','a',errors='ignore') as myfile:
             myfile.write("\n \n"+ans)
         myfile.close()
         return("done")

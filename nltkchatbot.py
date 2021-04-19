@@ -2,6 +2,8 @@ import nltk
 from spellchecker import SpellChecker
 import random
 import string #for python strings
+nltk.download('punkt')
+nltk.download('wordnet')
 print("What would you like to know about?\n( chatbot, cricket, tensorflow, python )")
 topic = input(string)
 if (topic!='chatbot'):

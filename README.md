@@ -1,6 +1,12 @@
 # info-retriever-chatbot
 
 EXTRACT THE 'INFORMATIONNLTK' FOLDER TO C:/ DRIVE IN WINDOWS SYSTEMS!
+INSTALL THESE ON YOUR SYSTEM FIRST:
+-> go to python scripts folder in CMD.
+-> pip install nltk
+-> pip install numpy
+-> pip install pyspellchecker
+-> pip install sklearn
 
 Part of an internship at Hindustan Petroleum Corporation Ltd Datacenter, Hyderabad during the month of December, 2018.
 
